@@ -1,0 +1,12 @@
+name: bitnet_pi
+channels: [pytorch, conda-forge]
+dependencies:
+  - python=3.11
+  - pytorch
+  - torchvision
+  - transformers
+  - bitsandbytes
+  - tensorboard
+  - pip:
+      - datasets
+      - accelerate

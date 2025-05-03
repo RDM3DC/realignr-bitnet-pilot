@@ -1,0 +1,11 @@
+# python
+__pycache__/
+*.py[cod]
+venv/
+env/
+# data
+runs/
+checkpoints/
+*.pt
+*.ckpt
+.ipynb_checkpoints/
